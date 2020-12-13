@@ -2,6 +2,10 @@
 
 The `biokinepy` library provides utilities for processing, computing, and analyzing joint kinematics - although at the moment it is not comprehensive. It aims to provide a starting point for creating a comprehensive Python library for analyzing motion capture datasets.
 
+#### Installation
+
+`python -m pip install biokinepy`
+
 #### Vision
 
 `biokinepy` processing starts with either skin marker trajectories or segment kinematics. It does NOT derive skin marker trajectories from videos, nor does it derive segment kinematics from biplane recordings. These tasks have already been implemented by other utilities, or are fulfilled by software supplied by the manufacturer (e.g. [Vicon](https://www.vicon.com/)). What is missing in the Python ecosystem is a comprehensive library for analyzing motion capture datasets, which is where `biokinepy` comes in. Tools such as [Visual3D](https://c-motion.com/products/visual3d) currently fulfill this function but 1) are not free, 2) are not open-source, 3) are inflexible, 4) are now outdated.
