@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='biokinepy',
-    version='0.1.1',
+    version='0.1.2',
     author='Klevis Aliaj',
     author_email='klevis.a@gmail.com',
     description='Utilities for processing, computing, and analyzing joint kinematics.',

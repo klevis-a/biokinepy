@@ -4,7 +4,7 @@ The `biokinepy` library provides utilities for processing, computing, and analyz
 
 #### Installation
 
-`python -m pip install biokinepy`
+`pip install biokinepy`
 
 #### Vision
 
